@@ -53,7 +53,7 @@ public class ReverseNumber {
 
             sum = sum + (ld * ld * ld);
 
-            reverseNum = (reverseNum * 10 ) + ld ;
+        //    reverseNum = (reverseNum * 10 ) + ld ;
 
             n = n / 10;
         }
@@ -77,11 +77,11 @@ public class ReverseNumber {
 
         int numRev = scanner.nextInt();
 
-    //    int revNums = reverseNum(numRev);
+        int revNums = reverseNum(numRev);
 
     //    boolean revNums = polyndronNumber(numRev);
 
-        int revNums = amstrongNumber(numRev);
+     //   int revNums = amstrongNumber(numRev);
 
         System.out.println(revNums);
 
