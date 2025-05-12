@@ -7,7 +7,7 @@ public class StringPolyndronm {
       //  String s = "Mummy";
         String s = "radar";
         boolean reveStr = polyStrng(0,s);
-      //  boolean reveStr = validPalindrome(s);
+    //    boolean reveStr = validPalindrome(s);
         System.out.println(reveStr);
     }
 
@@ -18,8 +18,6 @@ public class StringPolyndronm {
         if(s.charAt(i)!=s.charAt(s.length()-i-1)) {
             return false;
         }
-
-
         return polyStrng(i+1,s);
     }
 

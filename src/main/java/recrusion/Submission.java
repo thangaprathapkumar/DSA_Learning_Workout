@@ -12,7 +12,7 @@ public class Submission
 
     public static void main(String[] args) {
 
-        int n=3;
+        int n=1;
         int sumfunction = sum(n);
         System.out.println(sumfunction);
 
